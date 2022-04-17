@@ -19,9 +19,15 @@ struct AddView: View {
                     .cornerRadius(10)
                 
                 Button {
-                    <#code#>
+                    
                 } label: {
                     Text("Save".uppercased())
+                        .foregroundColor(.white)
+                        .font(.headline)
+                        .frame(height: 55)
+                        .frame(maxWidth: .infinity)
+                        .background(Color.accentColor)
+                        .cornerRadius(10)
                 }
 
             }
