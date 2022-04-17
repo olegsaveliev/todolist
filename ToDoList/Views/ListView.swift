@@ -8,34 +8,34 @@
 import SwiftUI
 
 struct ListView: View {
-    
-    @State var array:[ItemModel] = [
-    ItemModel(title: "this is the first title", isCompleted: false),
-    ItemModel(title: "this is the second title", isCompleted: true),
-    ItemModel(title: "this is the third title", isCompleted: false)
-    ]
+    @EnvironmentObject var model:ListViewModel
     
     var body: some View {
         List {
-            ForEach(array){ item in
+            ForEach(model.items){ item in
                 ListRowView(item: item)
             }
+            .onDelete (perform: model.deleteItem)
+            .onMove(perform: model.moveIteam)
             
         }
-        .listStyle(PlainListStyle())
-        .navigationTitle("ToDo List 📝")
-        .navigationBarItems(
-            leading: EditButton(),
-            trailing:
-                NavigationLink("Add", destination: AddView())
-        )
+            .listStyle(PlainListStyle())
+            .navigationTitle("ToDo List 📝")
+            .navigationBarItems(
+                leading: EditButton(),
+                trailing:
+                    NavigationLink("Add", destination: AddView())
+            )
     }
-}
+        
+    }
+
+    
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
-        ListView()
+            ListView().environmentObject(ListViewModel())
         }
     }
 }
