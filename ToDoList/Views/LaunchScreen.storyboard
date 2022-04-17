@@ -29,15 +29,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="R09-su-hxT">
-                                <rect key="frame" x="132" y="264" width="150" height="149"/>
+                                <rect key="frame" x="132" y="373.5" width="150" height="149"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="9ha-2f-VXc"/>
                                     <constraint firstAttribute="width" constant="150" id="kBE-uf-8rX"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doing things." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGf-3k-FQx">
-                                <rect key="frame" x="119" y="429.5" width="176" height="37"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doing things." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5w-Bc-Av4">
+                                <rect key="frame" x="119" y="539" width="176" height="37"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -47,14 +47,14 @@
                         <color key="backgroundColor" name="AccentColor"/>
                         <constraints>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
-                            <constraint firstItem="hGf-3k-FQx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="FnM-OB-J1o"/>
+                            <constraint firstItem="z5w-Bc-Av4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="63b-Ao-74w"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="GJd-Yh-RWb" secondAttribute="centerX" id="Q3B-4B-g5h"/>
                             <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="20" symbolic="YES" id="SfN-ll-jLj"/>
                             <constraint firstItem="R09-su-hxT" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Uec-c3-Pme"/>
                             <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
-                            <constraint firstItem="hGf-3k-FQx" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ehB-NG-muu"/>
+                            <constraint firstItem="z5w-Bc-Av4" firstAttribute="top" secondItem="R09-su-hxT" secondAttribute="bottom" constant="16" id="iU2-ga-gjn"/>
+                            <constraint firstItem="z5w-Bc-Av4" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="kfh-9n-MKP"/>
                             <constraint firstItem="GJd-Yh-RWb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="bottom" multiplier="1/3" constant="1" id="moa-c2-u7t"/>
-                            <constraint firstItem="hGf-3k-FQx" firstAttribute="top" secondItem="R09-su-hxT" secondAttribute="bottom" constant="16" id="rJP-5X-cmB"/>
                             <constraint firstItem="R09-su-hxT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="sno-cF-hv6"/>
                             <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" symbolic="YES" id="x7j-FC-K8j"/>
                         </constraints>
