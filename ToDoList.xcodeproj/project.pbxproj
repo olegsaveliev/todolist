@@ -16,6 +16,7 @@
 		571886F7280C26310060EFBB /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571886F6280C26310060EFBB /* ItemModel.swift */; };
 		571886FA280C2D840060EFBB /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571886F9280C2D840060EFBB /* ListViewModel.swift */; };
 		571886FC280C66CD0060EFBB /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571886FB280C66CD0060EFBB /* NoItemsView.swift */; };
+		571886FE280C72B60060EFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571886FD280C72B60060EFBB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		571886F6280C26310060EFBB /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		571886F9280C2D840060EFBB /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		571886FB280C66CD0060EFBB /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		571886FD280C72B60060EFBB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				571886F1280C1CB70060EFBB /* ListRowView.swift */,
 				571886F3280C1EF20060EFBB /* AddView.swift */,
 				571886FB280C66CD0060EFBB /* NoItemsView.swift */,
+				571886FD280C72B60060EFBB /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571886FE280C72B60060EFBB /* LaunchScreen.storyboard in Resources */,
 				571886E8280C1ACD0060EFBB /* Preview Assets.xcassets in Resources */,
 				571886E5280C1ACD0060EFBB /* Assets.xcassets in Resources */,
 			);
@@ -316,6 +320,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -344,6 +349,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
